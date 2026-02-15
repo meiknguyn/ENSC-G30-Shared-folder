@@ -1,0 +1,21 @@
+# Idx: 1 | A: 0000000000000001 | B: 0000000000000001 | S: 0000000000000002 | PASS
+# Idx: 2 | A: FFFFFFFFFFFFFFFF | B: 0000000000000001 | S: 0000000000000000 | PASS
+# Idx: 3 | A: 7FFFFFFFFFFFFFFF | B: 0000000000000001 | S: 8000000000000000 | PASS
+# Idx: 4 | A: 0000000000000000 | B: 0000000000000000 | S: 0000000000000001 | PASS
+# Idx: 5 | A: 8000000000000000 | B: 8000000000000000 | S: 0000000000000000 | PASS
+# Idx: 6 | A: AAAAAAAABBBBBBBB | B: 5555555544444444 | S: FFFFFFFFFFFFFFFF | PASS
+# Idx: 7 | A: 000000000000000F | B: 0000000000000001 | S: 0000000000000010 | PASS
+# Idx: 8 | A: FFFFFFFFFFFFFFF0 | B: 0000000000000010 | S: 0000000000000000 | PASS
+# Baseline Simulation finished. Transcript saved to Documentation/OutputFiles/transcript_baseline.txt
+# Running FastRipple...
+# End time: 00:43:06 on Feb 15,2026, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+# vsim -t 1ps Work.tb_adder_ripple 
+# Start time: 00:43:06 on Feb 15,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading Work.tb_adder_ripple(test)
+# Loading Work.adder(fastripple)

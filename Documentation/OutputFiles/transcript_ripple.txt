@@ -1,0 +1,24 @@
+# Idx: 1 | A: 0000000000000001 | B: 0000000000000001 | Cin: 0 | S: 0000000000000002 | Cout: 0 | Ovfl: 0 | RESULT: PASS
+# Idx: 2 | A: FFFFFFFFFFFFFFFF | B: 0000000000000001 | Cin: 0 | S: 0000000000000000 | Cout: 1 | Ovfl: 0 | RESULT: PASS
+# Idx: 3 | A: 7FFFFFFFFFFFFFFF | B: 0000000000000001 | Cin: 0 | S: 8000000000000000 | Cout: 0 | Ovfl: 1 | RESULT: PASS
+# Idx: 4 | A: 0000000000000000 | B: 0000000000000000 | Cin: 1 | S: 0000000000000001 | Cout: 0 | Ovfl: 0 | RESULT: PASS
+# Idx: 5 | A: 8000000000000000 | B: 8000000000000000 | Cin: 0 | S: 0000000000000000 | Cout: 1 | Ovfl: 1 | RESULT: PASS
+# Idx: 6 | A: AAAAAAAABBBBBBBB | B: 5555555544444444 | Cin: 0 | S: FFFFFFFFFFFFFFFF | Cout: 0 | Ovfl: 0 | RESULT: PASS
+# Idx: 7 | A: 000000000000000F | B: 0000000000000001 | Cin: 0 | S: 0000000000000010 | Cout: 0 | Ovfl: 0 | RESULT: PASS
+# Idx: 8 | A: FFFFFFFFFFFFFFF0 | B: 0000000000000010 | Cin: 0 | S: 0000000000000000 | Cout: 1 | Ovfl: 0 | RESULT: PASS
+# Simulation Finished. Processing of 8 vectors completed.
+# Ripple Simulation finished. Transcript saved to Documentation/OutputFiles/transcript_ripple.txt
+# Running CSA...
+# End time: 00:43:09 on Feb 15,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0
+# vsim -t 1ps Work.tb_adder_csa 
+# Start time: 00:43:09 on Feb 15,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.std_logic_textio(body)
+# Loading Work.tb_adder_csa(test)
+# Loading Work.adder(csa)
+# Loading Work.adder(baseline)
+# Loading Work.fulladder(behavioral)
